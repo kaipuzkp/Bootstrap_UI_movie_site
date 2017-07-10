@@ -8,6 +8,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 <!-- //////////////Navbar //////////////////////////////-->
 <!-- 		<nav class="navbar navbar-inverse navbar-static-top">
 	 		 <div class="container">
@@ -20,40 +21,40 @@
 		</nav> -->
 
 		<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="img/movie-icon-29.png"></a>
-    </div>
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html"><img src="img/movie-icon-29.png"></a>
+		    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  
+		       
+		      <!-- </ul>    <ul class="nav navbar-nav"> -->
 
-       
-      </ul>
-      <form class="navbar-form navbar-left">
-        
-      </form>
-      <ul class="nav navbar-nav navbar-right nav-pills">
-        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Ticket</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contract Us</a></li>
 
-       
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  
-  </div><!-- /.container-fluid -->
+		      <ul class="nav navbar-nav navbar-right nav-pills">
+		        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+		        <!-- <li><a href="index.html">Home</a></li> -->
 
-</nav>
+		        <li><a href="#">Ticket</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Contract Us</a></li>
+
+		       
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  
+		  </div><!-- /.container-fluid -->
+
+		</nav>
 
 <!-- /////////////Carousel ///////////////////////////////////////////-->
 <div class= carousel_banner>
@@ -104,11 +105,99 @@
 
 	</div>	
 <!-- //////////////////////////////////////////////////////////////////////////////-->
-	
+	<h1><span class="glyphicon glyphicon-film" aria-hidden="true"></span>Upcoming Movies</h1>
+
+<!-- /////////////Show-up Picture//////////////////////////////////////////////////-->	
+
+	<!-- Picture trigger modal -->
+    <div class="poster-position">
+		<div class="myposter">
+			<a href="#" data-toggle="modal" data-target="#myModal1">
+		  		<img src="img/Ex-Aid_True_Ending_Poster.jpg">
+			</a>
+
+			
+		</div>
+
+		<div class="myposter">
+			<a href="#" data-toggle="modal" data-target="#myModal2">
+		  		<img src="img/Pac_Man_VS_Heisei_Riders.jpg">
+			</a>	
+		</div>
+
+		<div class="myposter">
+			<a href="#" data-toggle="modal" data-target="#myModal3">
+		  		<img src="img/AR_VS_Dai-Shocker_DC.jpg">
+			</a>
+		</div>	
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Kamen Rider Ex-Aid True Ending</h4>
+	      </div>
+	      <div class="modal-body">
+	        <img src="img/Ex-Aid_True_Ending_Poster.jpg">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Kamen Rider Heisei Generations: Dr. Pac-Man vs. Ex-Aid</h4>
+	      </div>
+	      <div class="modal-body">
+	        <img src="img/Pac_Man_VS_Heisei_Riders.jpg">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Kamen Rider Decade: All Riders vs. Dai-Shocker</h4>
+	      </div>
+	      <div class="modal-body">
+	        <img src="img/AR_VS_Dai-Shocker_DC.jpg">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
 
 
+<!-- //////////////////////////////////////////////////////////////////////////////-->
+        <footer>
+            <ul>
+            	<p class="info-footer">About Us</p>
+            	<p class="info-footer">Movie News</p>
+            	<p class="info-footer">Terms of Use</p>
 
+            </ul>
+        </footer> 
 
 		<script  type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script  type="text/javascript" src="js/bootstrap.min.js"></script>
