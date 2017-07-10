@@ -1,0 +1,37 @@
+
+.item img {
+	width: 100%;
+	/*max-width: 500px;*/
+	/*display: block;*/
+    margin: auto;
+
+}
+.navbar-brand{
+	width: 70px;
+	height: 70px;
+	margin: auto;
+
+}
+.navbar-brand img{
+	width: 100%;
+
+}
+
+
+nav ul li {
+  display: inline-block;
+  color: white;
+    border: 1px solid white;
+    margin: 10px
+
+}
+nav ul li:hover{
+  background-color:rgba(238, 238, 238, 0.28);
+
+}
+body{
+	background-size: 100%;
+	background-image: url(http://webdxd.github.io/movie/img/background.jpg);
+	/*background-image: url(http://www.planwallpaper.com/static/images/Light-Wood-Background-Wallpaper.jpg);*/
+	margin-top: 7rem;
+}
